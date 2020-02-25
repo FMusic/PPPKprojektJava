@@ -1,5 +1,7 @@
 package com.fm.db;
 
+import com.fm.model.TravelWarrantsEntity;
+
 public class I6 {
 
     public static void getPdfAllWarrants(){
@@ -10,5 +12,5 @@ public class I6 {
 
     }
 
-    public static void getPdfForWarrant(TravelWarrant tw){}
+    public static void getPdfForWarrant(TravelWarrantsEntity tw){}
 }
