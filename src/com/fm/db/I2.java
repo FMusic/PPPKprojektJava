@@ -1,25 +1,18 @@
 package com.fm.db;
 
+import com.fm.model.Driver;
 import com.fm.model.Vehicle;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class I2 {
-
-    public static void saveCsv(String csvFile){
-        List<Vehicle> vehicles = parseVehiclesFromCsv(csvFile);
-        SaveVehiclesToDb(vehicles);
+    public static void SaveVehicles(List<Vehicle> vehicles){
+        // todo: Prepared statements
+        // todo: Transactions
     }
 
-    private static void SaveVehiclesToDb(List<Vehicle> vehicles) {
-        //todo - Prepared Statements
-        //todo - transactions
-    }
+    public static void SaveDrivers(List<Driver> drivers){
 
-    private static List<Vehicle> parseVehiclesFromCsv(String csvFile) {
-        List<Vehicle> vehicles = new ArrayList<>();
-        //todo
-        return vehicles;
     }
 }

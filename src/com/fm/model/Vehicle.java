@@ -18,6 +18,13 @@ public class Vehicle {
         this.miles = miles;
     }
 
+    public Vehicle(String type, String maker, int yearOfMaking, int miles) {
+        Type = type;
+        Maker = maker;
+        YearOfMaking = yearOfMaking;
+        this.miles = miles;
+    }
+
     public int getIDVehicle() {
         return IDVehicle;
     }

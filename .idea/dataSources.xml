@@ -7,5 +7,15 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://DESKTOP-OSC7H6E\SQLEXPRESS:64725;database=pppk1db</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="731e895a-9e40-42cc-bf76-73a08e1bbe5e">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/frane/source/repos/PPPKprojektJava/src/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://DESKTOP-OSC7H6E\SQLEXPRESS:64725;database=pppk1db</jdbc-url>
+    </data-source>
   </component>
 </project>
