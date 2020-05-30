@@ -1,7 +1,15 @@
 <component name="libraryTable">
   <library name="pdfbox-2.0.19">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../libs/pdfbox-2.0.19.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/libs/apache-pdfbox/pdfbox-2.0.19.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/libs/apache-pdfbox/pdfbox-debugger-2.0.19.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/libs/apache-pdfbox/pdfbox-tools-2.0.19.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/libs/apache-pdfbox/xmpbox-2.0.19.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/libs/apache-pdfbox/pdfbox-app-2.0.19.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/libs/apache-pdfbox/preflight-app-2.0.19.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/libs/apache-pdfbox/debugger-app-2.0.19.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/libs/apache-pdfbox/fontbox-2.0.19.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/libs/apache-pdfbox/preflight-2.0.19.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

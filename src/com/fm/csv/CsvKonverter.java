@@ -4,6 +4,7 @@ import com.fm.db.I2;
 import com.fm.model.Driver;
 import com.fm.model.Vehicle;
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,7 +13,7 @@ public class CsvKonverter {
     public static String PART_DELIM = "DELIMITER";
     public static String DELIMITER = ",";
 
-    public static void saveCsv(String csvFile){
+    public static void saveCsv(String csvFile) throws SQLException {
         String[] splitted = csvFile.split(PART_DELIM);
         List<Vehicle> vehicles = parseVehiclesFromCsv(splitted[0]);
         List<Driver> drivers = parseDriversFromCsv(splitted[1]);
